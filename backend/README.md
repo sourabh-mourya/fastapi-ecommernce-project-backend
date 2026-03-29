@@ -60,7 +60,9 @@ Response return karo
 ---
 
 ## 2. Payment Flow
-
+POST /api/v1/payment/initiate  ← payment shuru karo
+POST /api/v1/payment/verify    ← payment verify karo
+POST /api/v1/payment/refund    ← refund karo
 ```
 Order create hua
     ↓

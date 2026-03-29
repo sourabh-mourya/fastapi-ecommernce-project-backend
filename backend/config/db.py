@@ -9,3 +9,7 @@ db = client[EnvConfig.DB_NAME]
 #collection 
 user_collection=db['users']
 product_collection=db['product']
+order_collection=db['order']
+coupon_collection=db['coupon']
+payment_collection=db['payment']
+
