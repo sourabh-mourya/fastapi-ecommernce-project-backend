@@ -156,7 +156,7 @@ class Coupon(Document):
     created_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     class Settings:
-        name = "coupons"
+        name = "coupon"
         indexes = ["code", "is_active", "valid_until"]
 
 
